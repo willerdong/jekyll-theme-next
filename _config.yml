@@ -4,7 +4,7 @@
 # ---------------------------------------------------------------
 
 # Site
-title: 
+title: willer's blog
 subtitle: to be willer
 description: 想起什么就写点
 author: Willer Dong
@@ -124,7 +124,7 @@ menu:
   archives: /archives/
   tags: /tags/
   #sitemap: /sitemap.xml
-  commonweal: /404.html
+  #commonweal: /404.html
 
 
 # Enable/Disable menu icons.
@@ -245,7 +245,7 @@ toc:
   enable: true
 
   # Automatically add list number to toc.
-  number: true
+  number: false
 
   # If true, all words will placed on next lines if header width longer then sidebar width.
   wrap: false
