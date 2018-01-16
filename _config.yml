@@ -4,10 +4,10 @@
 # ---------------------------------------------------------------
 
 # Site
-title: NexT
-subtitle: 
+title: 
+subtitle: to be willer
 description: 想起什么就写点
-author: Dong Dong
+author: Willer Dong
 # Support language: de, en, fr-FR, id, ja, ko, pt-BR, pt, ru, zh-Hans, zh-hk, zh-tw
 language: zh-Hans
 date_format: '%Y-%m-%d'
@@ -36,6 +36,7 @@ exclude: [".rvmrc", ".rbenv-version", "README.md", "Rakefile", "changelog.md", "
 
 # Separator
 #excerpt_separator: <!-- more -->
+excerpt_separator: <!-- more -->
 
 # Code Highlighter
 ## 'pygments' is unsupported on GitHub Pages now.
@@ -87,6 +88,7 @@ rss:
 
 # Specify the date when the site was setup
 #since: 2015
+since:2018
 
 # icon between year and author @Footer
 authoricon: heart
@@ -122,7 +124,7 @@ menu:
   archives: /archives/
   tags: /tags/
   #sitemap: /sitemap.xml
-  #commonweal: /404.html
+  commonweal: /404.html
 
 
 # Enable/Disable menu icons.
@@ -214,6 +216,9 @@ font:
 # Value is the target link (E.g. GitHub: https://github.com/iissnan)
 #social:
   #LinkLabel: Link
+social:
+  GitHub: https://github.com/willerdong
+  微博: https://weibo.com/u/3191828611
 
 
 # Social Links Icons
@@ -227,7 +232,7 @@ social_icons:
   # KeyMapsToSocialItemKey: NameOfTheIconFromFontAwesome
   GitHub: github
   #Twitter: twitter
-  Weibo: weibo
+  微博: weibo
 
 
 # Sidebar Avatar
@@ -569,7 +574,7 @@ exturl: false
 #! ---------------------------------------------------------------
 
 # Motion
-use_motion: true
+use_motion: false 
 
 # Fancybox
 fancybox: true
